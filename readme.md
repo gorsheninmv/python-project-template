@@ -10,4 +10,6 @@ The goal of this template is to use python with the following environment:
 
 See how it might use in neovim config here https://github.com/gorsheninmv/rc/tree/master/neovim/nvim.
 
+# Installing
+Run *install.sh* to prepare directory as project root direcory.
 
