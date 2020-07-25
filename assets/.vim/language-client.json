@@ -1,0 +1,30 @@
+{
+  "enabled": true,
+  "initializationOptions": {
+    "displayOptions": {
+      "preferredFormat": "plaintext",
+      "trimDocumentationLines": true,
+      "maxDocumentationLineLength": 0,
+      "trimDocumentationText": true,
+      "maxDocumentationTextLength": 0
+    },
+    "interpreter": {
+      "properties": {
+        "InterpreterPath": "/path/to/interpreter",
+        "UseDefaultDatabase": true,
+        "Version": "3.8"
+      }
+    }
+  },
+  "python": {
+      "linting": {
+          "enabled": true
+      },
+      "analysis": {
+        "errors": ["undefined-variable"],
+        "warnings": ["unknown-parameter-name"],
+        "information": ["unresolved-import"],
+        "disabled": ["too-many-function-arguments", "parameter-missing"]
+      }
+  }
+}
